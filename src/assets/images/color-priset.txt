@@ -1,0 +1,7 @@
+main = B88E2F 
+secondary = FFF3E3
+bg = FFFFFF
+
+bg shop filter = F9F1E7
+
+bg star icon = FFC700
