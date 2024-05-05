@@ -15,7 +15,7 @@ export default function Nav() {
   return (
     <header>
       <nav className='py-7 shadow-sm'>
-        <div className='flex justify-between items-center px-8 md:px-12 lg:px-20'>
+        <div className='flex mx-auto justify-between items-center px-8 md:px-12 lg:px-36'>
           {/* Logo */}
           <div className='flex items-center gap-1'>
             <img src={Logo} alt='logo' className='h-[29px]' />

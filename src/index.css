@@ -4,3 +4,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .banner {
+        @apply flex flex-col gap-5 mx-auto box-border border-secondary p-10 border-4 bg-secondary w-[690px] h-[480px];
+    }
+}
