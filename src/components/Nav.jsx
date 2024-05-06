@@ -1,13 +1,13 @@
 import { useState } from 'react';
-import { Link, Route, Routes } from 'react-router-dom';
-import { Cart, Heart, Search, Account } from '../assets/icons';
-import { Logo } from '../assets/images';
-import { navLinks } from '../constants';
 import Home from '../pages/Home';
-import About from '../pages/About';
 import Shop from '../pages/Shop';
 import NotFound from './NotFound';
+import About from '../pages/About';
 import Contact from '../pages/Contact';
+import { Logo } from '../assets/images';
+import { navLinks } from '../constants';
+import { Link, Route, Routes } from 'react-router-dom';
+import { Cart, Heart, Search, Account } from '../assets/icons';
 
 export default function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
