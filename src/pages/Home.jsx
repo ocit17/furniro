@@ -1,5 +1,6 @@
 import Banner from '../components/Banner';
 import Browse from '../components/Browse';
+import Hero from '../components/Hero';
 import Products from '../components/Products';
 
 export default function Home() {
@@ -13,6 +14,9 @@ export default function Home() {
       </section>
       <section className='w-[85%] mx-auto'>
         <Products />
+      </section>
+      <section className='w-full mx-auto'>
+        <Hero />
       </section>
     </>
   );

@@ -11,6 +11,7 @@ import muggo from './img-5.png';
 import pingky from './img-6.png';
 import potty from './img-7.png';
 import leviosa from './chair.png';
+import innerPeace from './setup-1.png';
 
 export {
     Logo,
@@ -25,5 +26,6 @@ export {
     grifo,
     muggo,
     pingky,
-    potty
+    potty,
+    innerPeace
 }
