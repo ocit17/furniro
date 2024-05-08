@@ -12,13 +12,17 @@ export default function Slider({ images }) {
     <>
       <div className='overflow-hidden relative'>
         <div
-          className={`flex transition ease-out duration-75 gap-5`}
+          className={`flex transition ease-out duration-75 gap-5 max-w-[100%] h-[80%] max-sm:mx-5 max-sm:h-[100%]`}
           style={{
-            transform: `translateX(-${currentImage * 30}%)`,
+            transform: `translateX(-${currentImage * 106}%)`,
           }}
         >
           {images.map((image) => (
-            <img src={image} key={image} className='h-[200%] aspect-auto' />
+            <img
+              src={image}
+              key={image}
+              className='object-cover max-sm:object-none'
+            />
           ))}
         </div>
 
