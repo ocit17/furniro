@@ -16,7 +16,7 @@ export default function Products() {
               <img
                 src={item.thumbnail}
                 alt={item.title}
-                className='w-[100%] h-[100%]'
+                className='w-[100%] h-[100%] hover:blur-sm cursor- rounded-xl'
               />
               <div className='px-2 max-sm:absolute max-sm:flex max-sm:items-end max-sm:justify-end'>
                 <div className='max-sm:bg-white max-sm:bg-opacity-40 max-sm:py-2 max-sm:px-2 max-sm:rounded-b-2xl'>
