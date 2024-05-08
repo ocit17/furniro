@@ -3,7 +3,7 @@ import { innerPeace } from '../assets/images';
 export default function Hero() {
   return (
     <>
-      <div className='bg-secondary grid grid-cols-3 px-10 py-10'>
+      <div className='bg-secondary grid grid-cols-3 px-5 py-10'>
         <div className='flex flex-col gap-4 ml-24 py-[50%]'>
           <div>
             <h1 className='font-bold text-4xl text-slate-800'>
@@ -17,7 +17,7 @@ export default function Hero() {
             </p>
           </div>
           <div>
-            <button className='bg-primary border text-white font-semibold px-9 w-55'>
+            <button className='bg-primary border text-white font-semibold px-9 py-4 w-55'>
               Explore More
             </button>
           </div>
