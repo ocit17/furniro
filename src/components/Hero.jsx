@@ -1,6 +1,9 @@
-import { innerPeace } from '../assets/images';
+import { innerPeace, setup2, setup21 } from '../assets/images';
+import Slider from './Slider';
 
 export default function Hero() {
+  let images = [setup2, setup21];
+
   return (
     <>
       <div className='bg-secondary grid grid-cols-3 px-5 py-10'>
@@ -40,15 +43,8 @@ export default function Hero() {
             </div>
           </div>
         </div>
-        <div className='flex justify-end'>
-          <div className='flex justify-center'>
-            <nav className='inline-flex space-x-2'>
-              <a
-                href='#'
-                className='w-3 h-3 flex items-center justify-center bg-primary rounded-full hover:bg-gray-300 ring-primary ring-opacity-50 ring-offset-8 ring-1'
-              ></a>
-            </nav>
-          </div>
+        <div className='flex justify-end pl-3 right-0 flex-wrap'>
+          <Slider images={images} />
         </div>
       </div>
     </>

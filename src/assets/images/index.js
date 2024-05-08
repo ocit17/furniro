@@ -12,6 +12,8 @@ import pingky from './img-6.png';
 import potty from './img-7.png';
 import leviosa from './chair.png';
 import innerPeace from './setup-1.png';
+import setup2 from './setup-2.png';
+import setup21 from './setup-2-1.png';
 
 export {
     Logo,
@@ -27,5 +29,7 @@ export {
     muggo,
     pingky,
     potty,
-    innerPeace
+    innerPeace,
+    setup2,
+    setup21
 }
