@@ -1,4 +1,4 @@
-import { dining, living, bedRoom, sylTherine, leviosa, lolito, respira, grifo, muggo, pingky, potty } from '../assets/images'
+import { dining, living, bedRoom, sylTherine, leviosa, lolito, respira, grifo, muggo, pingky, potty, share1, share2, share3, share4, share5, share6, share7, share8, share9 } from '../assets/images'
 
 export const navLinks = [
     { href: "/", label: "Home" },
@@ -70,6 +70,66 @@ export const ourProducts = [
         thumbnail : potty,
         price : 'Rp. 500.000',
         description : 'Minimalist flower pot'
+    },
+]
+
+export const shareSetup = [
+    {
+        thumbnail : share1
+    },
+    {
+        thumbnail : share3
+    },
+    {
+        thumbnail : share5
+    },
+    {
+        thumbnail : share4
+    },
+    {
+        thumbnail : share2
+    },
+    {
+        thumbnail : share6
+    },
+    {
+        thumbnail : share7
+    },
+    {
+        thumbnail : share8
+    },
+    {
+        thumbnail : share9
+    },
+    {
+        thumbnail : dining
+    },
+    {
+        thumbnail : living
+    },
+    {
+        thumbnail : bedRoom
+    },
+    {
+        thumbnail : sylTherine
+    },
+    {
+        thumbnail : lolito
+    },
+    {
+        thumbnail : respira
+    },
+    {
+        thumbnail : grifo
+    },
+    {
+        thumbnail : muggo
+    },
+    {
+        thumbnail : pingky
+    },
+    {
+        thumbnail : potty
     },
 ]
 

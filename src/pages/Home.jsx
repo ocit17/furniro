@@ -2,6 +2,7 @@ import Banner from '../components/Banner';
 import Browse from '../components/Browse';
 import Hero from '../components/Hero';
 import Products from '../components/Products';
+import ShareSetup from '../components/ShareSetup';
 
 export default function Home() {
   return (
@@ -17,6 +18,9 @@ export default function Home() {
       </section>
       <section className='w-full mx-auto'>
         <Hero />
+      </section>
+      <section className='w-full mx-auto'>
+        <ShareSetup />
       </section>
     </>
   );
