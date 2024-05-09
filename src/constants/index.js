@@ -133,3 +133,22 @@ export const shareSetup = [
     },
 ]
 
+export const footerLinks = [
+    {
+        title: "Links",
+        links: [
+            { name: "Home", link: "/" },
+            { name: "Shop", link: "/shop" },
+            { name: "About", link: "/about" },
+            { name: "Contact", link: "/contact" },
+        ]
+    },
+    {
+        title: "Help",
+        links: [
+            { name: "Payment Options", link: "/" },
+            { name: "Returns", link: "/" },
+            { name: "Privacy Policies", link: "/" },
+        ],
+    }
+];
